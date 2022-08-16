@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2em;
+  min-width: 500em;
+  background-color: #021f63;
+
+}
+
+.top-spacer {
+  padding-left: 5vw;
+}
+
+#link-bar {
+  background-color: #f3aa01;
+  height: 7vh;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  padding-left: 5vw;
+  min-width: 50vh;
+}
+
+#main-box {
+  position: absolute;
+  margin-top: 7vh;
+  width: 100%;
+  height: 100%;
+}
+
+#text-box {
+  background-color: whitesmoke;
+  position: relative;
+  top: 3vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+}
+
+#stefan-image {
+  width: calc(15vw - 10px);
+  height: calc(18vw - 10px);
+  margin: 5px;
+}
+
+#stefan-image-box {
+  position: relative;
+  left: 4vw;
+  top: -15px;
+  width: 15vw;
+  height: 18vw;
+  background-color: white;
+  visibility: hidden;
+}
+
+#overview-box {
+  font-size: 2.5vh;
+  position: relative;
+  top: -18vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+#research-box {
+  position: relative;
+  top: -20vw;
+  margin: 5vw;
+}
+
+
+.no-link {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+a {
+  color: black;
+}
